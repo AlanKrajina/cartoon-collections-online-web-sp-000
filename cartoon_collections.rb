@@ -16,6 +16,6 @@ end
 
 def find_the_cheese(food)
   array=["cheddar","gouda","camembert"]
-  food.detect {|i| i.include?(array.collect do |x| x end)}
+  food.detect {|i| i.include?(array.each do |x| x end)}
 end
 
