@@ -18,7 +18,7 @@ food=["tomato soup", "oyster crackers", "gouda"]
 def find_the_cheese(food)
   array=["cheddar","gouda","camembert"]
   
-  food.detect {|i| i.include?array.join(', ')}
+  food.detect {|i| i.include?array.join(",")}
   
 end
 find_the_cheese(food)
