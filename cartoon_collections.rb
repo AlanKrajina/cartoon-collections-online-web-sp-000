@@ -14,11 +14,10 @@ def long_planeteer_calls(calls_long)
 end
 
 
-array= ["garlic", "rosemary", "bread"]
 
-def find_the_cheese(array)
-
-  array.find {|i| i == "cheddar" or "gouda" or "camembert" }
+def find_the_cheese(food)
+  array= ["garlic", "rosemary", "bread"]
+  food.find {|i| i == array }
 
 end
 find_the_cheese(array)
