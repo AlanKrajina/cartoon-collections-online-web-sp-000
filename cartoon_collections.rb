@@ -21,7 +21,7 @@ def find_the_cheese(food)
   if food & array
     return food & array
   else 
-    return nil
+     nil
   end
   
  # food.detect {|i| i.include?(array)}
