@@ -13,7 +13,7 @@ def long_planeteer_calls(calls_long)
   calls_long.any? { |i| i.length > 4}
 end
 
-
+food = ["crackers", "gouda", "thyme"]
 
 def find_the_cheese(food)
   array= ["cheddar", "gouda", "camembert"]
