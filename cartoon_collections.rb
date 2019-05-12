@@ -20,3 +20,5 @@ def find_the_cheese(food)
   food.find {|i| i == array }
 
 end
+
+find_the_cheese(food)
