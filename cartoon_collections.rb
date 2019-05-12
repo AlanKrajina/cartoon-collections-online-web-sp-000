@@ -18,6 +18,6 @@ food=["tomato soup", "oyster crackers", "gouda"]
 def find_the_cheese(food)
   array=["cheddar","gouda","camembert"]
   
-  food.detect {|i| array.include?}
+  food.detect {|i| array.include?(food)}
   
 end
