@@ -22,4 +22,4 @@ def find_the_cheese(food)
   
 end
 find_the_cheese(food)
-["tomato soup", "oyster crackers", "gouda"].join(",")
+["tomato soup", "oyster crackers", "gouda"].join("")
