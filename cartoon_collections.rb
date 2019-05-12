@@ -21,3 +21,4 @@ def find_the_cheese(food)
   food.detect {|i| array.include?(food)}
   
 end
+find_the_cheese(food)
