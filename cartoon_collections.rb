@@ -21,5 +21,3 @@ def find_the_cheese(food)
   food.detect {|i| i.include?array.join(",")}
   
 end
-find_the_cheese(food)
-["tomato soup", "oyster crackers", "gouda"].join(", ")
