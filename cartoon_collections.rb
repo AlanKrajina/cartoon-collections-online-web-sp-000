@@ -18,7 +18,7 @@ array= ["garlic", "rosemary", "bread"]
 
 def find_the_cheese(array)
 
-  array.find {|i| i == "cheddar" or "gouda" or "camembert" return i}
+  array.find {|i| i == "cheddar" or "gouda" or "camembert" }
 
 end
 find_the_cheese(array)
