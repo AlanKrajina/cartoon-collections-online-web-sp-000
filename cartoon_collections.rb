@@ -17,7 +17,7 @@ food = ["crackers", "gouda", "thyme"]
 
 def find_the_cheese(food)
   array= "gouda"
-  food.include? (array)
+  food.detect {|i| i == array}
 end
 
 find_the_cheese(food)
