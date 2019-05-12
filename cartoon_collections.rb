@@ -16,7 +16,7 @@ end
 
 
 def find_the_cheese(food)
-  array= ["garlic", "rosemary", "bread"]
+  array= ["cheddar", "rosemary", "bread"]
   food.find {|i| i == array[i] }
 
 end
